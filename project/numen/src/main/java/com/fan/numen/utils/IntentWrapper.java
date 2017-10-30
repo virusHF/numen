@@ -441,12 +441,12 @@ public class IntentWrapper {
         }
         return showed;
     }
-
-    public static void onBackPressed(Activity a) {
-        Intent launcherIntent = new Intent(Intent.ACTION_MAIN);
-        launcherIntent.addCategory(Intent.CATEGORY_HOME);
-        a.startActivity(launcherIntent);
-    }
+//
+//    public static void onBackPressed(Activity a) {
+//        Intent launcherIntent = new Intent(Intent.ACTION_MAIN);
+//        launcherIntent.addCategory(Intent.CATEGORY_HOME);
+//        a.startActivity(launcherIntent);
+//    }
 
     protected Intent intent;
     private int type;

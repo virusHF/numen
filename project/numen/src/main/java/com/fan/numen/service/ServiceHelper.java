@@ -17,8 +17,7 @@ import java.util.Map;
  */
 
 public class ServiceHelper {
-//    static final int WAKE_UP_INTERVAL = 10 * 60 * 1000;
-    static final int WAKE_UP_INTERVAL = 5000;
+    static final int WAKE_UP_INTERVAL = 10 * 60 * 1000;
 
     private static Map<Class<? extends Service>, ServiceConnection> sConnections = new HashMap<>();
 
